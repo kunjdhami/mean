@@ -11,6 +11,6 @@ export class AppComponent {
 
   onPostAdded(post) {
     this.storedPosts.push(post);
-    // this.storedPosts.push({'content': 'as', 'title': 'as'}); --> this won't return an error, but other formats will.
+    // this.storedPosts.push({'content': 'as', 'title': 'as'}); --> this won't return an error, but other formats will .
   }
 }
