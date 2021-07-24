@@ -8,7 +8,7 @@ const Post = require('./models/posts');
 
 const app = express(); //return express app which is a big chainof middlewares we apply to incoming requests
 
-mongoose.connect("mongodb+srv://max:L7zBEbbN7aAkpsU@cluster0.ucekb.mongodb.net/node-angular?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://max:kunjdhami26@cluster0.ucekb.mongodb.net/node-angular?retryWrites=true&w=majority")
   .then(() => {
     console.log('Connected to db');
   })
